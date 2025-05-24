@@ -1,0 +1,118 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: url(1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: orange;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links .active {
+  color: orange;
+  font-weight: bold;
+}
+
+.testimonials-section {
+  padding: 80px 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.container h1 {
+  font-size: 36px;
+  color: orange;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-left: 4px solid orange;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.testimonial p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial span {
+  font-weight: bold;
+  color: orange;
+}
+
+.footer {
+    background-color: #111;
+    color: white;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer-container {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-left h3 {
+    color: #ff7200;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.footer-left p,
+.footer-right p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-right a {
+    color: #ff7200;
+    text-decoration: none;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+}

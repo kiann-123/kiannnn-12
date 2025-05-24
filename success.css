@@ -1,0 +1,27 @@
+.success-box {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  border: 2px solid orange;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 600px;
+  margin: 100px auto;
+}
+
+.success-box h1 {
+  color: orange;
+  margin-bottom: 1rem;
+}
+
+.success-box .back-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: orange;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.success-box .back-link:hover {
+  text-decoration: underline;
+}
